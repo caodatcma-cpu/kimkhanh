@@ -11,6 +11,7 @@ body{
 }
 
 .member{
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
     padding:6px;
     border-radius:20px;
     width:800px;
@@ -72,6 +73,7 @@ textarea{
     display:flex;
     align-items:center;
     justify-content:center;
+    background:#f4f4ff;
     cursor:pointer;
 }
 
@@ -79,10 +81,6 @@ textarea{
     width:100%;
     height:100%;
     object-fit:cover;
-}
-
-.image-box input{
-    display:none;
 }
 </style>
 </head>
@@ -107,7 +105,7 @@ textarea{
 <div class="form-group">
 <label>Giới tính:</label>
 <div class="radio-group">
-<label><input type="radio" name="gioitinh" value="Nam">Nam</label>
+<label><input type="radio" name="gioitinh" value="Nam"> Nam</label>
 <label><input type="radio" name="gioitinh" value="Nữ" checked> Nữ</label>
 </div>
 </div>
@@ -122,34 +120,36 @@ textarea{
 </div>
 
 <div class="checkbox-group">
-<label><input type="checkbox" name="thethao" value="Bóng đá"> Bóng đá</label><br>
-<label><input type="checkbox" name="thethao" value="Cầu lông" checked> Cầu lông</label><br>
-<label><input type="checkbox" name="thethao" value="Bóng chuyền"> Bóng chuyền</label><br>
-<label><input type="checkbox" name="thethao" value="Ca hát"> Ca hát</label><br>
-<label><input type="checkbox" name="thethao" value="Nhảy - Múa"> Nhảy - Múa</label><br>
-<label><input type="checkbox" name="thethao" value="Khác"> Khác</label>
+<label><input type="checkbox"> Bóng đá</label><br>
+<label><input type="checkbox" checked> Cầu lông</label><br>
+<label><input type="checkbox"> Bóng chuyền</label><br>
+<label><input type="checkbox" > Ca hát</label><br>
+<label><input type="checkbox"> Nhảy - Múa</label><br>
+<label><input type="checkbox"> Khác</label>
 </div>
 
 <div class="form-group">
 <label>Môn học tự tin:</label>
-<input type="text" name="monhoc" value="Lịch sử">
+<input type="text" value="Lịch sử">
 </div>
 
 <div class="form-group">
 <label>Phương châm sống:</label>
-<textarea rows="2">kệ kệ đi</textarea>
+<textarea rows="2">Kệ kệ đi</textarea>
 </div>
 
 <div class="image-box">
-<img src="kimkhanh.jpg" alt="Ảnh Thái Thanh Trúc" onerror="this.src='https://via.placeholder.com/180?text=Thieu+Anh'">
+<img src="tuyetquyen.jpg" alt="Ảnh Kim Khánh"
+onerror="this.src='https://via.placeholder.com/180?text=Thieu+Anh'">
 </div>
 
 </div>
 </div>
 
 <script>
-console.log("Trang tâm sự bản thân của Khánh đã sẵn sàng!");
+console.log("Trang tâm sự bản thân của Quyên đã sẵn sàng!");
 </script>
 
 </body>
 </html>
+
